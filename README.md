@@ -3,7 +3,7 @@
 </div>
 
 # TRL - Transformer Reinforcement Learning
-> Full stack transformer language models with reinforcement learning.
+> 강화 학습을 적용한 전체 스택 트랜스포머 언어 모델.
 
 <p align="center">
     <a href="https://github.com/huggingface/trl/blob/main/LICENSE">
@@ -17,14 +17,13 @@
     </a>
 </p>
 
-
-## What is it?
-
+이것은 무엇인가?
 <div style="text-align: center">
 <img src="https://huggingface.co/datasets/trl-internal-testing/example-images/resolve/main/images/TRL-readme.png">
 </div>
 
-`trl` is a full stack library where we provide a set of tools to train transformer language models and stable diffusion models with Reinforcement Learning, from the Supervised Fine-tuning step (SFT), Reward Modeling step (RM) to the Proximal Policy Optimization (PPO) step. The library is built on top of the [`transformers`](https://github.com/huggingface/transformers) library by  🤗 Hugging Face. Therefore, pre-trained language models can be directly loaded via `transformers`. At this point, most of decoder architectures and encoder-decoder architectures are supported. Refer to the documentation or the `examples/` folder for example code snippets and how to run these tools.
+trl은 변압기 언어 모델과 안정적인 확산 모델을 강화 학습으로 훈련시키기 위한 전체 스택 라이브러리입니다. 이는 Supervised Fine-tuning 단계(SFT), Reward Modeling 단계(RM)에서 Proximal Policy Optimization (PPO) 단계까지 다양한 도구를 제공합니다. 이 라이브러리는 🤗 Hugging Face의 transformers 라이브러리를 기반으로 하므로, 사전 훈련된 언어 모델은 transformers를 통해 직접 로드할 수 있습니다. 현재 대부분의 디코더 아키텍처와 인코더-디코더 아키텍처가 지원됩니다. 예제 코드 조각과 이 도구들을 실행하는 방법은 문서나 examples/ 폴더를 참조하십시오.
+
 
 **Highlights:**
 
